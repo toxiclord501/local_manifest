@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remote -->
+  <remote name="txc"
+          fetch="https://github.com/toxiclord501" />
+
+  <remote name="zyc"
+          fetch="https://github.com/ZyCromerZ" />
+
+  <!-- Device Tree -->
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="zyc" clone-depth="1" revision="eleven-upstream-mod2" />
+  <project path="device/xiaomi/lava" name="lava" remote="txc" clone-depth="1" revision="aicp" />
+  <project path="vendor/xiaomi/lava" name="vendor_xiaomi_lava" remote="txc" clone-depth="1" revision="11" />
+
+</manifest>
